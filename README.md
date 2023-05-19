@@ -49,7 +49,8 @@ $title = $articleExtractor->title();
 $plaintext = $articleExtractor->plainText();
 
 $url = 'https://www.seroundtable.com/google-search-algorithm-ranking-volatility-35414.html';
-
+$article = $articleExtractor->article();
+echo $articleExtractor->title() . PHP_EO
 
 ```
 
