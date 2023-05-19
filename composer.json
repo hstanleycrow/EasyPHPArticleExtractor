@@ -1,0 +1,43 @@
+{
+    "name": "hstanleycrow/easyphparticleextractor",
+    "description": "Free PHP library to extract the main content from an article post or news post, including images and HTML",
+    "keywords": [
+        "php",
+        "website",
+        "extractor",
+        "extraction",
+        "extract website",
+        "extract article",
+        "extract blog post",
+        "extract news post",
+        "grab article",
+        "grab blog post",
+        "grab news post"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/hstanleycrow/EasyPHPArticleExtractor",
+    "authors": [
+        {
+            "name": "Harold Rivas AKA Harold Crow",
+            "email": "holamundo@microaplicaciones.com",
+            "homepage": "https://www.microaplicaciones.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hstanleycrow\\EasyPHPArticleExtractor\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
